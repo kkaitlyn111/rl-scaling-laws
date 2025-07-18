@@ -1,0 +1,22 @@
+[project]
+name = "eval-code-qwen2-5-math"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10, <3.11"
+dependencies = [
+    "antlr4-python3-runtime==4.9.3",
+    "datasets",
+    "pebble",
+    "python-dateutil",
+    "sympy==1.13.1",
+    "timeout-decorator",
+    "torch",
+    "tqdm",
+    "transformers>=4.52.0",
+    "vllm>=0.6",
+    "word2number",
+    "latex2sympy2",
+    "setuptools",
+    "ai2-olmo @ git+https://github.com/allenai/OLMo.git@main",
+]

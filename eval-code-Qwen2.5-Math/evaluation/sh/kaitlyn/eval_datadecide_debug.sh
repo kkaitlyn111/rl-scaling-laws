@@ -10,7 +10,8 @@ NUM_TEST_SAMPLE=5  # just 5 samples for debug
 # simple debug - just gsm8k
 DATA_NAME="gsm8k"
 TOKENIZERS_PARALLELISM=false \
-python3 -u math_eval.py \
+# python3.8 -u math_eval.py \
+uv run python math_eval.py \
     --model_name_or_path ${MODEL_NAME_OR_PATH} \
     --data_name ${DATA_NAME} \
     --output_dir ${OUTPUT_DIR} \
