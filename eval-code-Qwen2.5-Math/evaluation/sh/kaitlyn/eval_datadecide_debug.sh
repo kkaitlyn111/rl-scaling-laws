@@ -5,9 +5,9 @@ MODEL_NAME_OR_PATH=$2
 OUTPUT_DIR=${MODEL_NAME_OR_PATH}/math_eval_debug
 
 SPLIT="test"
-NUM_TEST_SAMPLE=5  # just 5 samples for debug
+NUM_TEST_SAMPLE=5 
 
-# simple debug - just gsm8k
+
 DATA_NAME="gsm8k"
 TOKENIZERS_PARALLELISM=false \
 # python3.8 -u math_eval.py \
